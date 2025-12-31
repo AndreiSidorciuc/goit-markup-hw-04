@@ -102,10 +102,6 @@ img {
   color: #404bbf;
 }
 
-.nav-link.current {
-  color: #404bbf;
-}
-
 .nav-link.current::after {
   content: "";
   position: absolute;
@@ -246,6 +242,7 @@ img {
 }
 
 .work-container {
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 
@@ -296,8 +293,8 @@ img {
 
 .work-socials {
   display: flex;
+  justify-content: center;
   gap: 24px;
-  align-items: center;
 }
 
 .social-link {
@@ -320,6 +317,11 @@ img {
 .social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
+}
+
+.social-link:hover svg,
+.social-link:focus svg {
+  fill: #ffffff;
 }
 
 .portfolio {
@@ -424,7 +426,7 @@ img {
   color: #f4f4fd;
 }
 
-.footer-social {
+.footer-social-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
