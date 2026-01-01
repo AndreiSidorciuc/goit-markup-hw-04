@@ -102,6 +102,10 @@ img {
   color: #404bbf;
 }
 
+.nav-link.current {
+  color: #404bbf;
+}
+
 .nav-link.current::after {
   content: "";
   position: absolute;
