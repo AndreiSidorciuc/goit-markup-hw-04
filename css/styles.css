@@ -190,6 +190,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -318,14 +319,13 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link,
-.footer-social-link svg {
-  fill: #f4f4fd;
-}
-
 .social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
+}
+
+.social-link svg {
+  fill: #f4f4fd;
 }
 
 .social-link:hover svg,
@@ -413,7 +413,7 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   gap: 120px;
 }
 
@@ -467,8 +467,4 @@ img {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
-}
-
-.footer-social-link svg {
-  fill: #f4f4fd;
 }
